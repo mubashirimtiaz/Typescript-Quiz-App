@@ -5,7 +5,7 @@ html{
     height: 100%;
 }
 body{
-    background : #f7f7f7;
+      background: linear-gradient(to right, #f7f7f7, #ffffff);
     margin : 0;
     display : flex;
     justify-content : center;
@@ -22,6 +22,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   > p {
+    text-align: center;
     color: #757575;
     font-size: 1.2rem;
   }
