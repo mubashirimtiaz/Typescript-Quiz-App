@@ -47,6 +47,7 @@ export const Wrapper = styled.div`
     border: none;
     outline: none;
     margin: 10px 0;
+    box-shadow: 1px 1px 5px #aaaaaa;
   }
 
   .loader {

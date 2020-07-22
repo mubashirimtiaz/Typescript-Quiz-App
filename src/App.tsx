@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import QuestionCard from "./components/QuestionsCard";
 import { fetchQuestions, Difficulty, quizQuestionsState } from "./API";
 import "./App.css";
