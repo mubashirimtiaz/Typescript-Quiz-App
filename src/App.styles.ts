@@ -48,4 +48,50 @@ export const Wrapper = styled.div`
     outline: none;
     margin: 10px 0;
   }
+
+  .loader {
+    margin: 30px auto;
+    border: 16px solid #e7e7e7;
+    width: 150px;
+    height: 150px;
+    /* border-top-color: #1abc9c;
+  border-bottom-color: #3498db; */
+    border-radius: 50%;
+    animation: coloredSpin 6s linear infinite;
+  }
+
+  /* @keyframes spin{
+  0%{
+    transform: rotate(0deg) scale(1);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+ */
+  @keyframes coloredSpin {
+    0% {
+      transform: rotate(0deg) scale(1);
+      border-top-color: #aaaaaa;
+      border-bottom-color: #aaaaaa;
+    }
+    /* 25% {
+    border-top-color: #fd1d1d;
+    border-bottom-color: #fd1d1d;
+  }
+  50% {
+    transform: rotate(360deg) scale(1.08);
+    border-top-color: #fcb045;
+    border-bottom-color: #fcb045;
+  }
+  75% {
+    border-top-color: #fd1d1d;
+    border-bottom-color: #fd1d1d;
+  } */
+    100% {
+      transform: rotate(720deg) scale(1);
+      border-top-color: #dddddd;
+      border-bottom-color: #dddddd;
+    }
+  }
 `;

@@ -73,7 +73,7 @@ function App() {
           </button>
         ) : null}
         {!gameOver && <p className="score">score: {score}</p>}
-        {loading && <p>Loading Questions...</p>}
+        {loading && <div className="loader"></div>}
         {!gameOver && !loading && number !== totalQuestion ? (
           <QuestionCard
             question={questions[number].question}
